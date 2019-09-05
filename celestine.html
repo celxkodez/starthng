@@ -2,74 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CELESTINE</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <div class="leftcontent"><img src="https://res.cloudinary.com/celx/image/upload/v1566637298/kc3yd4udu0bkobicdrua.jpg"  alt="photo"></div>
-        <div class="head">
-            <h1>Celestine Stephen</h1>
-            <p>web-developer</p>
+    <div class="modal">
+        <div class="modal-contents">
+        
+            <div class="close">+</div> <br>
+            <form method="post" action="">
+                <h4>Contact Me!</h4>
+                <fieldset>        
+                    <input placeholder="Name*" type="text" name="name" tabindex="" required minlength="4" >
+                </fieldset>
+                <fieldset>                    
+                    <input type="email" id="email" placeholder="Email*" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Title*" type="text" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Drop Your Message..." minlength="20" required></textarea>
+                </fieldset>   
+                <input type="submit" value="Send" class="button">
+            </form>                
+        </div>
+    </div>
+   <div class="wrapper">
+        <div class="header">
+            <div class="leftcontent"><img src="https://res.cloudinary.com/celx/image/upload/v1566637298/kc3yd4udu0bkobicdrua.jpg"  alt="photo"></div>
+            <div class="head">
+                <h1>Celestine Stephen</h1>
+                <p>web-developer</p>
+                <a href="#" id="button" class="button">Contact Me</a>
+            </div>
+        </div>
+
+    
+        
+        <div class="container">
+            <div class="right">
+                <h3>PERSONAL DETAILS</h3>
+                <p><strong>Address:</strong> Mkpat-Enin lga, Akwa Ibom State, Nigeria</p>
+                <p><strong>Nationality:</strong> Nigerian</p>
+                <p><strong>Gender:</strong> Male</p>
+                <p><strong>Marital Status:</strong> Single</p>
+                <p><strong>Contact Details:</strong> <a>decele2011@gmail.com</a>, 08104222808</p>
+            </div>
+        </div>
+
+
+            <div class="container">
+                <div class="right">
+                    <h3>SKILLS</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>BOOTSTRAP</li>
+                        <li>JAVASCRIPT</li>
+                        <li>JQUERY</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="right">
+                    <h3>EXPERIANCE</h3>
+                    <h4>KODEHAUZ/Front-End Web Developer</h4>
+                    <p>10/2018 - 02/2019, EKET, AKWA IBOM STATE</p>
+                    <p>I was a trainnie in this company on web development</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="right">
+                        <h3>EDUCATION</h3>
+                    <h4>AKWA IBOM STATE UNIVERSITY/B.Sc</h4>
+                    <p>11/2016 - 11/2020, AKWA IBOM STATE</p>
+                    <P>I am currently studying computer science in akwa ibom state university</P>
+                </div>
+            </div>
+            <div class="container">
+                <div class="right">
+                        <h3>AWARDS</h3>
+                    <p>None Yet</p>
+                </div>
+            </div>
         </div>
     </div>
     
-    
-    <div class="container">
-        <div class="leftcontent"><h3>PERSONAL DETAILS</h3></div>
-        <div class="right">
-            <p><strong>Address:</strong> Mkpat-Enin lga, Akwa Ibom State, Nigeria</p>
-            <p><strong>Nationality:</strong> Nigerian</p>
-            <p><strong>Gender:</strong> Male</p>
-            <p><strong>Marital Status:</strong> Single</p>
-            <p><strong>Contact Details:</strong> <a>decele2011@gmail.com</a>, 08104222808</p>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="leftcontent"><h3>SKILLS</h3></div>
-        <div class="right">
-            <ul>
-                <li>HTML</li>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>BOOTSTRAP</li>
-                <li>JAVASCRIPT</li>
-                <li>JQUERY</li>
-            </ul>
-        </div>
-    </div>
- 
-    <div class="container">
-        <div class="leftcontent">
-            <h3>EXPERIANCE</h3>
-        </div>
-        <div class="right">
-            <h4>KODEHAUZ/Front-End Web Developer</h4>
-            <p>10/2018 - 02/2019, EKET, AKWA IBOM STATE</p>
-            <p>I was a trainnie in this company on web development</p>
-        </div>
-    </div>
-    <div class="container">
-        <div class="leftcontent">
-            <h3>EDUCATION</h3>
-        </div>
-        <div class="right">
-            <h4>AKWA IBOM STATE UNIVERSITY/B.Sc</h4>
-            <p>11/2016 - 11/2020, AKWA IBOM STATE</p>
-            <P>I am currently studying computer science in akwa ibom state university</P>
-        </div>
-    </div>
-    <div class="container">
-        <div class="leftcontent">
-            <h3>AWARDS</h3>
-                
-        </div>
-        <div class="right">
-            <p>None Yet</p>
-        </div>
-    </div>
-
+<script src="main.js"></script>
 </body>
 </html>
